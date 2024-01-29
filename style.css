@@ -24,3 +24,9 @@ button {
     border-style: dashed;
     border-width: 1px;
 }
+
+.newSquare {
+    box-sizing: border-box;
+    border-style: dashed;
+    border-width: 1px;
+}
