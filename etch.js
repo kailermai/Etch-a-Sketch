@@ -11,7 +11,7 @@ function createGrid(num) {
   }
   //Adds in new squares
   const totalnum = num * num;
-  for (let i = 0; i < totalnum + 1; i++) {
+  for (let i = 0; i < totalnum; i++) {
     const sqdiv = document.createElement("div");
     sqdiv.className = "newSquare";
     sqdiv.style.height = sizesq.toString() + "px";
@@ -28,7 +28,7 @@ function createGrid(num) {
 }
 
 //Creating n numbers of boxes
-for (let i = 0; i < 257; i++) {
+for (let i = 0; i < 256; i++) {
   const sqdiv = document.createElement("div");
   sqdiv.className = "square";
   container.appendChild(sqdiv);
