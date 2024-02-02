@@ -22,7 +22,7 @@ function createGrid(num) {
   const newSquares = document.querySelectorAll(".newSquare");
   newSquares.forEach((newSquare) => {
     newSquare.addEventListener("mousemove", () => {
-      newSquare.style.backgroundColor = "black";
+      newSquare.style.backgroundColor = "#393E46";
     });
   });
 }
@@ -38,12 +38,12 @@ for (let i = 0; i < 256; i++) {
 const squares = document.querySelectorAll(".square");
 squares.forEach((square) => {
   square.addEventListener("mousemove", () => {
-    square.style.backgroundColor = "black";
+    square.style.backgroundColor = "#393E46";
   });
 });
 
 //Button that allows the user to input and change the grid
-const btn = document.querySelector("button");
+const btn = document.querySelector(".btnchange");
 btn.textContent = "Click me to adjust the grid!";
 btn.addEventListener("click", () => {
   //Check for non number inputs by the user
